@@ -4,7 +4,7 @@ while (i < totalButtonNumber) {
     document.querySelectorAll("button")[i++].addEventListener("click", function () {
 
         makeSound(this.innerHTML);
-        makeSound(this.innerHTML);
+        buttonAnimation(this.innerHTML);
 
     });
 }
